@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/backgroound_login">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="60dp"
+        android:text="LOGIN"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="text"
+        android:id="@+id/login_username"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:maxLines="1"
+        android:hint="User name ..."
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:inputType="text"
+        android:id="@+id/login_password"
+        android:paddingRight="15dp"
+        android:paddingLeft="15dp"
+        android:hint="Password ..."
+        android:maxLines="1"
+        android:background="@drawable/border_radius"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_radius_button_login"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/button_thoat"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_radius_button_login"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="THOÁT"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
